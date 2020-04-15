@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite">        
+       
+   
+   <listeners>
+        <listener class-name="reports.ExtentReporterNG" />
+        
+		<listener class-name="Analyser.MyTransformer"/>
+		
+    </listeners>
+	  <test  name="Atcost" >
+	  <classes>
+	   
+	    <class name="com.atcost.Testcase.Question1Test"></class>
+	     <class name="com.atcost.Testcase.Question2Test"></class>
+	      <class name="com.atcost.Testcase.QuestionTest"></class>
+	       
+	   
+	    </classes>
+	    
+  </test>
+</suite> 
